@@ -81,13 +81,17 @@ a
 /* Landing page background */
 header
 {
-    min-height: 100vh;
+    height: clamp(720px,100vh,100vh);
     background-image: url(images/bg.png);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     margin-top: -150px;
     z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Unhovered resume button */
@@ -125,16 +129,7 @@ header
 {
     font-family: 'Biome';
     color: white;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-    position: absolute; 
-    top: 0;
-    left: 0; 
-    right: 0;
-    bottom: 0;
+    text-align: center;
 }
 
 /* Previous projects container */
