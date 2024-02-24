@@ -120,6 +120,7 @@ header
 /* Resume button effect when hovered */
 #resume-button:hover {
     transform: scale(1.05);
+    transition: transform 0.05s ease-in-out;
     background-color: #008080;
     color: white;
     box-shadow: 0 0 5px #00DFDA;
@@ -174,6 +175,7 @@ header
 .project:hover
 {
     transform: scale(1.05);
+    transition: transform 0.05s ease-in-out;
 }
 
 
